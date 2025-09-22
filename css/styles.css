@@ -70,3 +70,39 @@ text-transform: uppercase;
     letter-spacing: 0.02em;
     color: #434455;
  }
+
+ .container-our-team {
+     background-color: #F4F4FD;
+ }
+
+ /* Заголовки секцій (h2) */
+ .section-title {
+     font-size: 36px;
+     line-height: 1.11;
+     text-align: center;
+     letter-spacing: 0.02em;
+     text-transform: capitalize;
+     color: #2e2f42;
+ }
+
+ /* Заголовки елементів списку (h3) */
+ .feature-title {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+ }
+
+ /* Параграфи елементів списку (p) */
+ .feature-text {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+ }
+
+ /* Картки команди */
+ .team-card {
+     background-color: #FFFFFF;
+ }
