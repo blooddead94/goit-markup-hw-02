@@ -26,5 +26,34 @@ body {
 
 
 .menu-link {
-
+font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 3%;
+vertical-align: middle;
+text-transform: uppercase;
 }
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+
+.site-address {
+  font-style: normal;
+}
+
+.contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
