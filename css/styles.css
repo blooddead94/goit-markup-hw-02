@@ -51,12 +51,13 @@ body {
 
 /* Заголовки секцій */
 .section-title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 40px;
+    letter-spacing: 2%;
     text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
 }
 
 /* Заголовок елемента списку (h3) */
