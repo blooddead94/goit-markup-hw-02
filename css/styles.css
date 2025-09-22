@@ -106,7 +106,7 @@ color: #2e2f42;
 
 
 /* Section - 4 - Start */
-.our-portfolio {
+.portfolio-heading {
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -126,6 +126,8 @@ color: #2e2f42;
 .portfolio-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
+    color: #434455;
 }
 /* Section - 4 - Completed */
 
