@@ -75,7 +75,7 @@ text-transform: uppercase;
      background-color: #F4F4FD;
  }
 
- /* Заголовки секцій (h2) */
+ 
  .section-title {
      font-size: 36px;
      line-height: 1.11;
@@ -85,7 +85,6 @@ text-transform: uppercase;
      color: #2e2f42;
  }
 
- /* Заголовки елементів списку (h3) */
  .feature-title {
      font-weight: 500;
      font-size: 20px;
@@ -94,7 +93,6 @@ text-transform: uppercase;
      color: #2e2f42;
  }
 
- /* Параграфи елементів списку (p) */
  .feature-text {
      font-size: 16px;
      line-height: 1.5;
@@ -102,7 +100,7 @@ text-transform: uppercase;
      color: #434455;
  }
 
- /* Картки команди */
+
  .team-card {
      background-color: #FFFFFF;
  }
