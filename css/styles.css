@@ -82,12 +82,9 @@ color: #2e2f42;
     cursor: pointer;
 }
 
-.business-button:hover {
-background-color:#404BBF ;
-}
-
-.business-button:focus {
-    background-color: #404BBF;
+.button-class:hover,
+.button-class:focus {
+    background-color: #404bbf;
 }
 
 /* Section Two - Completed */
