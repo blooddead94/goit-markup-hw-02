@@ -84,14 +84,11 @@ color: #2e2f42;
     cursor: pointer;
 }
 
-.business-button:hover {
-    background-color: #404bbf;
+.business-button:hover,.business-button:focus  {
+    background-color: #404BBF;
     }
 
-.business-button:focus {
-    background-color: #404bbf;
-}
-
+ 
 /* Section 1 - Completed */
 
 /* Section 3 - Start */
