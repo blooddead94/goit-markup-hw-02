@@ -56,6 +56,30 @@ color: #2e2f42;
   color: #404bbf;
 }
 
+.container-your-business {
+    background-color: #2e2f42;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button:hover {
+color:#404BBF;
+}
+
+/* Section Three - Start */
+
  .feature-title {
     font-weight: 500;
     font-size: 20px;
@@ -70,6 +94,8 @@ color: #2e2f42;
     color: #434455;
  }
 
+ /* Section - Three - Completed */
+ 
  .container-our-team {
      background-color: #F4F4FD;
  }
@@ -160,3 +186,9 @@ color: #2e2f42;
  }
 
  /* Footer - Completed */
+
+
+
+
+
+
