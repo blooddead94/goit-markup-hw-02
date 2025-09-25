@@ -96,7 +96,8 @@ color: #2e2f42;
  
 /* Section 1 - Completed */
 
-/* Section 3 - Start */
+
+/* Section 2 - Start */
 
 .container-characteristics {
     background-color: #F4F4FD;
@@ -157,7 +158,34 @@ color: #2e2f42;
      background-color: #FFFFFF;
  }
 
-/* Section 3 - Completed */
+/* Section 2 - Completed */
+
+
+/* Section 3 - Start */
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.img-menu {
+    background-color: #FFFFFF;
+}
+
+.our-team-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.img-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Section - 3 - Completed */
 
 /* Section - 4 - Start */
 .portfolio-heading {
