@@ -97,7 +97,7 @@ color: #2e2f42;
 /* Section 1 - Completed */
 
 
-/* Section 2 - Start */
+/* Section 1 - Start */
 
 .container-characteristics {
     background-color: #F4F4FD;
@@ -158,10 +158,10 @@ color: #2e2f42;
      background-color: #FFFFFF;
  }
 
-/* Section 2 - Completed */
+/* Section 1 - Completed */
 
 
-/* Section 3 - Start */
+/* Section 2 - Start */
 .our-team {
     background-color: #F4F4FD;
 }
@@ -185,9 +185,9 @@ color: #2e2f42;
     color: #434455;
 }
 
-/* Section - 3 - Completed */
+/* Section - 2 - Completed */
 
-/* Section - 4 - Start */
+/* Section - 3 - Start */
 .portfolio-heading {
 font-size: 36px;
 line-height: 1.11;
@@ -195,7 +195,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
-}
+}   
 
 .portfolio-title {
 font-weight: 500;
@@ -211,10 +211,10 @@ color: #2e2f42;
     font-size: 16px;
     color: #434455;
 }
-/* Section - 4 - Completed */
+/* Section - 3 - Completed */
 
 
-
+ 
  /* Footer - Start */
 
  .footer-info {
