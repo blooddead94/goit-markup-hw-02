@@ -65,18 +65,32 @@ color: #2e2f42;
     color: #ffffff;
 }
 
+.business-solution {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+
+}
+
 .business-button {
     background-color: #4D5AE5;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-size: 16px;
     color: #ffffff;
     cursor: pointer;
 }
 
 .business-button:hover {
-color:#404BBF;
+background-color:#404BBF ;
 }
+
+.business-button:focus {
+    background-color: #404BBF;
+}
+
+/* Section Two - Completed */
 
 /* Section Three - Start */
 
