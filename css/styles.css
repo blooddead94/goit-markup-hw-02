@@ -166,9 +166,6 @@ color: #2e2f42;
     background-color: #F4F4FD;
 }
 
-.img-menu {
-    background-color: #FFFFFF;
-}
 
 .our-team-head {
     font-weight: 500;
@@ -179,10 +176,24 @@ color: #2e2f42;
 }
 
 .img-text {
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.img-list {
+background-color: #FFFFFF;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+}
+
+.img-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* Section - 2 - Completed */
