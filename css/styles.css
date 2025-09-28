@@ -169,9 +169,11 @@ color: #2e2f42;
 
 .our-team-head {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -194,6 +196,7 @@ text-transform: capitalize;
 .img-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
 }
 
 /* Section - 2 - Completed */
