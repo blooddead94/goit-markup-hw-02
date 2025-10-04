@@ -29,7 +29,7 @@ https://cdn.jsdelivr.net/npm/the-new-css-reset@1.11.3/css/reset.min.css
   </head>
   <body>
     <header class="header-menu">
-      <div class="container-menu container">
+      <div class="container-menu container-header">
         <nav class="webstudio">
           <a href="" class="logo">
             Web
@@ -64,13 +64,17 @@ https://cdn.jsdelivr.net/npm/the-new-css-reset@1.11.3/css/reset.min.css
     </header>
     <main>
       <section class="container-your-business">
-        <h1 class="business-solution">Effective Solutions for Your Business</h1>
-        <button type="button" class="business-button">Order Service</button>
+        <div class="container-business">
+          <h1 class="business-solution">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="business-button">Order Service</button>
+        </div>
       </section>
 
       <section class="container-characteristics">
         <div class="container">
-          <h2 class="section-title">Features</h2>
+          <h2 class="section-title visually-hidden">Features</h2>
           <ul class="feature-menu">
             <li class="menu-list">
               <h3 class="feature-title">Strategy</h3>
@@ -104,7 +108,7 @@ https://cdn.jsdelivr.net/npm/the-new-css-reset@1.11.3/css/reset.min.css
         </div>
       </section>
       <section class="our-team">
-        <div class="container">
+        <div class="container-team">
           <h2 class="section-title">Our Team</h2>
           <ul class="our-team-list">
             <li class="img-list">
@@ -133,93 +137,95 @@ https://cdn.jsdelivr.net/npm/the-new-css-reset@1.11.3/css/reset.min.css
       <section class="our-portfolio">
         <h2 class="portfolio-heading">Our Portfolio</h2>
 
-        <ul class="portfolio-list">
-          <li class="portfolio-item">
-            <img
-              src="./images/ourproject/banking-app.jpg"
-              alt="Banking App Interface"
-              width="360"
-              height="300"
-            />
-            <div class="container">
-              <h3 class="portfolio-title">Banking App</h3>
-              <p class="portfolio-text">App</p>
-            </div>
-          </li>
-
-          <li class="portfolio-item">
-            <img
-              src="./images/ourproject/cashless-payment.jpg"
-              alt="Cashless Payment"
-              width="360"
-              height="300"
-            />
-            <div class="container">
-              <h3 class="portfolio-title">Cashless Payment</h3>
-              <p class="portfolio-text">Marketing</p>
-            </div>
-          </li>
-
-          <li class="portfolio-item">
-            <img
-              src="./images/ourproject/meditaion-app.jpg"
-              alt="Meditation App"
-              width="360"
-              height="300"
-            />
-            <div class="container">
-              <h3 class="portfolio-title">Meditation App</h3>
-              <p class="portfolio-text">App</p>
-            </div>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/ourproject/taxi-service.jpg"
-              alt="hands-hold-on-car-wheel"
-              width="360"
-              height="300"
-            />
-            <div class="container">
-              <h3 class="portfolio-title">Taxi Service</h3>
-              <p class="portfolio-text">Marketing</p>
-            </div>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/ourproject/screen-illustrations.jpg"
-              alt="phone-with-illustration"
-              width="360"
-              height="300"
-            />
-            <div class="container">
-              <h3 class="portfolio-title">Screen Illustrations</h3>
-              <p class="portfolio-text">Design</p>
-            </div>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/ourproject/online-courses.jpg"
-              alt="women-with-notebook"
-              width="360"
-              height="300"
-            />
-            <div class="container">
-              <h3 class="portfolio-title">Online Courses</h3>
-              <p class="portfolio-text">Marketing</p>
-            </div>
-          </li>
-        </ul>
+        <div class="container-portfolio">
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <img
+                src="./images/ourproject/banking-app.jpg"
+                alt="Banking App Interface"
+                width="360"
+                height="300"
+              />
+              <div class="container-cards">
+                <h3 class="portfolio-title">Banking App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/ourproject/cashless-payment.jpg"
+                alt="Cashless Payment"
+                width="360"
+                height="300"
+              />
+              <div class="container-cards">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/ourproject/meditaion-app.jpg"
+                alt="Meditation App"
+                width="360"
+                height="300"
+              />
+              <div class="container-cards">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/ourproject/taxi-service.jpg"
+                alt="hands-hold-on-car-wheel"
+                width="360"
+                height="300"
+              />
+              <div class="container-cards">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/ourproject/screen-illustrations.jpg"
+                alt="phone-with-illustration"
+                width="360"
+                height="300"
+              />
+              <div class="container-cards">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/ourproject/online-courses.jpg"
+                alt="women-with-notebook"
+                width="360"
+                height="300"
+              />
+              <div class="container-cards">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer-info">
-      <a href="./index.html" class="footer-logo">
-        Web
-        <span class="footer-studio">Studio</span>
-      </a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container-footer">
+        <a href="./index.html" class="footer-logo">
+          Web
+          <span class="footer-studio">Studio</span>
+        </a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
