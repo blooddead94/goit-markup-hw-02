@@ -5,8 +5,10 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Header - Start */
+/* #region Header - Start */
 
+
+/* #region - Logo Start */
 .logo {
     font-family: "Raleway",sans-serif;
     font-weight: 700;
@@ -16,6 +18,7 @@ body {
     color: #4D5AE5;
     text-decoration: none;
     text-transform: uppercase;
+    margin-right: 76px ;
 }
 
 .logo-text {
@@ -25,12 +28,22 @@ body {
     
 }
 
+/* #endregion - Logo End */
+
 .menu {
-list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 
 }
 
+.distanse {
+    gap: 40px;
+}
+
 .menu-link {
+display: block;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -38,16 +51,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-decoration: none;
+padding: 24px;
 }
 
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
-}
-
-
-.site-address {
-  font-style: normal;
 }
 
 .contact-link {
@@ -62,10 +71,29 @@ text-decoration: none;
   color: #404bbf;
 }
 
-/* Header - Completed */
+.webstudio {
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+    align-items: center;
+}
+
+.container {
+    padding:0 15px;
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #endregion Header - Completed */
 
 
-/* Section 1 - Start */
+/* #region Section 1 - Start */
 .container-your-business {
     background-color: #2e2f42;
     font-size: 56px;
@@ -97,10 +125,10 @@ text-decoration: none;
     }
 
  
-/* Section 1 - Completed */
+/* #endregion Section 1 - Completed */
 
 
-/* Section 1 - Start */
+/* #region Section 1 - Start */
 
 
 .feature-menu {
@@ -151,10 +179,10 @@ text-decoration: none;
      background-color: #FFFFFF;
  }
 
-/* Section 1 - Completed */
+/* #endregion Section 1 - Completed */
 
 
-/* Section 2 - Start */
+/* #region Section 2 - Start */
 
 .img-text {
     font-weight: 500;
@@ -178,27 +206,27 @@ text-transform: capitalize;
     font-size: 16px;
 }
 
-/* Section - 2 - Completed */
+/* #endregion Section - 2 - Completed */
 
-/* Section - 3 - Start */
+/* #region Section 3 - Start */
 .portfolio-heading {
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
-}   
-
-.portfolio-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.portfolio-text{
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
@@ -208,11 +236,11 @@ color: #2e2f42;
 .portfolio-list {
     list-style: none;
 }
-/* Section - 3 - Completed */
+/* #endregion Section 3 -Completed end */
 
 
  
- /* Footer - Start */
+ /* #region Footer - Start */
 
  .footer-info {
     background-color: #2e2f42;
@@ -239,7 +267,7 @@ color: #2e2f42;
     color: #F4F4FD;
  }
 
- /* Footer - Completed */
+ /* #endregion Footer - Completed */
 
 
 
