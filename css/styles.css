@@ -4,8 +4,12 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+
+
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 } 
 /* #region Header - Start */
 
@@ -270,6 +274,7 @@ padding: 24px 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 8px;
 }
 
 .img-list {
@@ -280,6 +285,10 @@ text-align: center;
 text-transform: capitalize;
 outline: 1px solid white;
 border-radius: 4px;
+}
+
+.img-padd {
+    padding: 32px;
 }
 
 .img-description {
