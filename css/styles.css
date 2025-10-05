@@ -283,7 +283,7 @@ line-height: 1.11;
 text-align: center;
 text-transform: capitalize;
 outline: 1px solid white;
-border-radius: 4px;
+border-radius: 0px 0px 4px 4px;
 }
 
 .img-padd {
@@ -345,6 +345,9 @@ border-radius: 4px;
     border-radius: 0px 0px 4px 4px;
 }
 
+.container-team {
+    padding: 32px 0;
+}
 
 
 /* #endregion Section 3 -Completed end */
