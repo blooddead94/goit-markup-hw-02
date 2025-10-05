@@ -235,7 +235,7 @@ padding: 24px 0;
 
 
 
-/* #endregion Section 1 - Completed */
+/* #endregion Section 2 - Completed */
 
 
 /* #region Section 3 - Our-Team - Start */
@@ -246,6 +246,9 @@ padding: 24px 0;
     padding: 120px 0;
 }
 
+.our-team-list li:first-child {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
 
 .section-title {
     padding: 0 0 75px 0; 
@@ -287,7 +290,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .img-padd {
-    padding: 32px;
+        padding: 32px 0;
 }
 
 .img-description {
@@ -296,9 +299,18 @@ border-radius: 0px 0px 4px 4px;
     font-size: 16px;
 }
 
-/* #endregion Section - 2 - Completed */
+/* #endregion Section - 3 - Completed */
 
 /* #region Section 4 - Portfolio - Start */
+
+.our-portfolio {
+    padding: 120px 0;
+}
+
+.portfolio-item:first-child {
+    width: calc((100% - 48px) / 3);
+}
+
 
 .portfolio-heading {
     margin-top: 120px;
@@ -318,7 +330,7 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -332,13 +344,15 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+   row-gap: 48px;
+    width: 100%;
     gap: 24px;
-    width: 1128px;
-    margin-bottom: 120px;
 }
 
 .container-cards {
-    padding: 32px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .border {
