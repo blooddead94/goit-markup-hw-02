@@ -86,7 +86,6 @@ padding: 24px 0;
 }
 
 .container {
-    padding:0 15px;
     width: 1158px;
     margin: 0 auto;
 }
@@ -150,6 +149,7 @@ padding: 24px 0;
     height: 56px;
     border-radius: 4px;
     border: none;
+    padding: 16px;
     
 }
 
@@ -246,7 +246,6 @@ padding: 24px 0;
 
 .container-team {
     max-width: 1158px;
-    margin: 0 auto;
     padding: 120px 15px;
 }
 
@@ -275,7 +274,7 @@ padding: 24px 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 8px;
+    margin-bottom: 8px;
 }
 
 .img-list {
@@ -301,11 +300,6 @@ border-radius: 4px;
 /* #endregion Section - 2 - Completed */
 
 /* #region Section 4 - Portfolio - Start */
-
-.container-portfolio {
-    width: 1128px;
-    margin: 0 auto;
-}
 
 .portfolio-heading {
     margin-top: 120px;
