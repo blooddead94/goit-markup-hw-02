@@ -4,7 +4,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-
+img {
+    display: block;
+} 
 /* #region Header - Start */
 
 
@@ -30,13 +32,15 @@ body {
 
 /* #endregion - Logo End */
 
+.header-menu {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    margin: 156px;
-
 }
 
 .distanse {
@@ -96,11 +100,6 @@ padding: 24px;
 
 /* #region Section 1 Your-business - Start */
 
-.container-business {
-    display: flex;
-    width: 1440px;
-}
-
 .container-your-business {
     background-color: #2e2f42;
     font-size: 56px;
@@ -109,17 +108,32 @@ padding: 24px;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin: 0 auto;
+    font-weight: 700;
+    height: 600px;
+}
+
+.container-business {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0 auto;
+    height: 100%;
+    padding: 188px 0;
 }
 
 .business-solution {
-    margin-bottom: 189px;
+    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     width: 496px;
+    margin-bottom: 48px;
+    text-align: center;
 }
 
 /* #region - button - Start */
+
 .business-button {
     background-color: #4D5AE5;
     font-weight: 500;
@@ -128,11 +142,15 @@ padding: 24px;
     font-size: 16px;
     color: #ffffff;
     cursor: pointer;
+    min-width: 169px;
+    min-height: 56px;
 }
 
 .business-button:hover,.business-button:focus  {
     background-color: #404BBF;
     }
+
+
 
 /* #endregion - button - End */
 /* #endregion Section 1 - Completed */
@@ -224,13 +242,14 @@ padding: 24px;
 /* #region Section 3 - Our-Team - Start */
 
 .our-team {
-    width: 1440px;
-    margin: 0 auto;
+    width: 100%;
     background-color: #F4F4FD;
 }
 
 .container-team {
-    margin-bottom: 120px;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 120px 15px;
 }
 
 .section-title {
@@ -279,6 +298,7 @@ border-radius: 4px;
 }
 
 .portfolio-heading {
+    margin-top: 120px;
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
@@ -294,6 +314,7 @@ border-radius: 4px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .portfolio-text {
@@ -313,8 +334,10 @@ border-radius: 4px;
 }
 
 .container-cards {
-    text-align: center;
+    padding: 32px;
 }
+
+
 
 /* #endregion Section 3 -Completed end */
 
